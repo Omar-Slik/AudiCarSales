@@ -1,0 +1,81 @@
+a:link {
+  color:#C0C0C0;
+  text-decoration: none;
+}
+a:visited {
+  color: #C0C0C0;
+}
+a:hover {
+  letter-spacing:2px;
+}
+#header{
+  width:100%;
+  height:300px;
+  padding:60px;
+  background:URL("background.jpg");
+  background-position:center;
+}
+h1{
+  font-family:arial;
+  color:white;
+}
+
+body{
+  background-color:#000000;
+
+}
+#wrapper{
+  
+  width:1800px;
+  height:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  border:2px solid #333333;
+  font-family:'Dancing Script', cursive;
+  font-size:60px;
+  color:red;
+}
+#bil{
+  width:326px;
+  height:177px;
+  transition: width 4s, height 4s;
+  }
+#bil:hover{
+  width:693px;
+  height:362px;
+  }
+#vkolumn{
+  width:200px;
+  height:490px;
+  margin:30px auto auto 10px;
+  padding:5px;
+  text-align:center;
+  float:left;
+}
+#ckolumn{
+  width:500px;
+  height:490px;
+  margin:30px auto auto 50px;  
+  padding:5px;
+  text-align:center;
+  float:right;
+}
+#hkolumn{
+  width:800px;
+  height:490px;
+  margin:30px auto auto 50px; 
+  padding:5px;
+  text-align:center;  
+  float:right;
+}
+#form{
+  color:white;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}

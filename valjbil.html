@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Omar Audi försäljare</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      body {
+      background-image: url('5.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-position:center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button type="button" class="btn btn-dark"><a href="index.html">  Hemsida  </button>
+    <button type="button" class="btn btn-dark"><a href="valjbil.html">välja Din bil  </button>
+    <button type="button" class="btn btn-dark"><a href="hittatilloss.html">hitta till oss</button>
+    <button type="button" class="btn btn-dark"><a href="omforetaget.html">  Om företaget  </button>
+    <button type="button" class="btn btn-dark"><a href="kontaktaoss.html">  kontakta oss  </button>  
+    <div id="header"><h1><a href="index.html">Omar Audi Försäljare</a></h1>
+    </div>
+    <div id="wrapper">
+      <div id="vkolumn">
+        <div>
+        <img id="bil" src="q3.jpg" alt="q3" onclick="q3l()"onmouseover="makeBig();" onmouseout="makeSmall();">    
+        <input class="btn btn-dark" type="button" value="Nya Audi Q3" onclick="q3l()"></div>
+        <div>
+        <img id="bil" src="q2.jpg" alt="q2" onclick="q2l()"onmouseover="makeBig();" onmouseout="makeSmall();">    
+        <input class="btn btn-dark" type="button" value="Nya Audi Q2" onclick="q2l()"></div>
+        <div>
+        <img id="bil" src="a8.jpg" alt="a8" onclick="a8l()"onmouseover="makeBig();" onmouseout="makeSmall();">    
+        <input class="btn btn-dark" type="button" value="Nya Audi A8" onclick="a8l()"></div>
+      </div>
+      <div id="ckolumn">
+        <div>
+        <img id="bil" src="a7.jpg" alt="a7" onclick="a7l()" onmouseover="makeBig();" onmouseout="makeSmall();">  
+        <input class="btn btn-dark" type="button" value="Nya Audi A7 sportback" onclick="a7l()" ></div>    
+        <div>    
+        <img id="bil" src="a6.jpg" alt="a6" onclick="a6l()" onmouseover="makeBig();" onmouseout="makeSmall();">    
+        <input class="btn btn-dark" type="button" value="Nya Audi A6 Avant" onclick="a6l()" ></div>
+        <div>
+        <img id="bil" src="a5.jpg" alt="a5" onclick="a5l()" onmouseover="makeBig();" onmouseout="makeSmall();">   
+        <input class="btn btn-dark" type="button" value="Nya Audi A5 coupe" onclick="a5l()" ></div>      
+      </div>
+      <div id="hkolumn">
+        <div>
+        <img id="bil" src="a4.jpg" alt="a4" onclick="a4l()" onmouseover="makeBig();" onmouseout="makeSmall();"><br>   
+        <input class="btn btn-dark" type="button" value="Nya Audi A4 sedan" onclick="a4l()" ></div>
+        <div>
+        <img id="bil" src="a3.jpg" alt="a3" onclick="a3l()" onmouseover="makeBig();" onmouseout="makeSmall();"><br>   
+        <input class="btn btn-dark" type="button" value="Nya Audi A3 sportback" onclick="a3l()" ></div>
+        <div>
+        <img id="bil" src="a1.jpg" alt="a1" onclick="a1l()" onmouseover="makeBig();" onmouseout="makeSmall();"><br>   
+        <input class="btn btn-dark" type="button" value="Nya Audi A1 sportback" onclick="a1l()" ></div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    
+    <script>
+    function q3l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/q3/q3.html")
+    }
+    function q2l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/q2/q2.html")
+    }
+    function a8l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a8/a8-l.html")
+    }
+    function a7l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a7/a7-sportback.html")
+    }
+    function a6l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a6/a6-avant.html")
+    }
+    function a5l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a5/a5-coupe.html")
+    }
+    function a4l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a4/a4-sedan.html")
+    }
+    function a3l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a3/a3-sportback.html")
+    }
+    function a1l() {
+      window.location.assign("https://www.audi.se/se/web/sv/models/a1/a1-sportback.html")
+    }
+    var car = document.getElementById("bil");  
+
+    function makeBig() { 
+        car.width = 600; 
+    } 
+
+    function makeSmall() { 
+        car.width = 400; 
+    } 
+    </script>
+  </body>
+
+
+
+
+
+</html>
